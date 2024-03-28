@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run artisan inside the web container
+## Usage: artisan [flags] [args]
+## Example: "ddev artisan list" or "ddev artisan cache:clear"
+
+php artisan $@
