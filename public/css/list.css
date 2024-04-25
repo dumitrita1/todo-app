@@ -1,0 +1,20 @@
+.add-list-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+}
+.add-list{
+    background-color: rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+.checkbox_lists{
+    display: block;
+    margin: 5%;
+    font-size: 14px;
+}
+
+

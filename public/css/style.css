@@ -1,0 +1,102 @@
+@import url("task.css");
+@import url("user.css");
+@import url("list.css");
+
+body {
+    max-width: 360px; 
+    height: 640px;
+    margin:0 auto;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius:25px;
+    border:solid;
+}
+
+h1 {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home-button, .register-button, .login-button, .save-button{
+    gap: 20%;
+}
+
+.home-button__link, .save-button__link, .register-button__link, .login-button__link, .name, .email, .password {
+    display: block;
+    text-align: center;
+    width: 260px;
+    height: 43px;
+    border-radius: 10px; 
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+.home-button__link, .register-button__link,  .login-button__link, .save-button__link, .add-task {
+    background: #F0634A;
+}
+
+.home-button__link a,.save-button__link, .text{
+    font-weight: bold;
+    color: black;
+}
+
+.login-daten input, .register-daten input{
+    width: 252px;
+    height: 37px;
+}
+ .login-daten{
+    gap: 3%;
+}
+
+.name-daten, .email-daten, .password-daten, .title-daten, .description-daten, .date-daten{
+    font-size: 16px;
+}
+.text{
+    font-size: 18px;
+    text-align:center;
+}
+.turn-button{
+    margin-left: 5%;
+}
+.datenschutz-text, .password-text__forgot{
+    font-size: 12px;
+    text-align:center;
+}
+.text a, .home-button__link a{
+    text-decoration: none;
+}
+
+.text a{
+color: #F0634A;
+}
+
+.img-home, .img-login{
+    max-width: 175px;
+}
+
+.img-login{
+    margin-left: 25%;
+}
+.text,  .img-login , .home-button, .save-button, .register-button{
+    margin-top: 5%;
+}
+.login-button__link{
+    margin-top: 10%;
+}
+.img-home{
+    margin: auto !important;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+.register-daten, .login-daten, .home-button, .register-button,.save-button, .login-button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.datenschutz{
+    margin-left: 5%;
+}

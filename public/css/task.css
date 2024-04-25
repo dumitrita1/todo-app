@@ -1,0 +1,86 @@
+.task-form {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 5% 0 5%;
+    padding: 3%;
+}
+
+  .task-form label {
+    line-height: 1;
+
+  }
+
+  .task-form input[type="text"],
+  .task-form textarea,
+  .task-form input[type="date"] {
+    width: calc(100% - 12px); 
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+.greeting-user{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.text-current-task{
+  font-size: 14px;
+  margin-left: 5%;
+  font-weight: bold;
+}
+.menu-button {
+    margin-left: auto; 
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+}
+  .avatar-img{
+    max-width: 45px;
+    max-height: 45px;
+    border-radius: 50%;
+  }
+  
+  .add-task a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+  }
+  .add-task {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-bottom:none ;
+    margin: auto;
+  }
+
+  .add-task, .user-blank__img, .task-form label, .task-form{
+    display: block;
+  }
+
+  .add-task{
+    margin: 15% auto;
+}
+.user-blank__img {
+  margin: 10% auto;
+}
+
+  .user-blank__img{
+    max-width: 300px;
+  }
+  .text-add__task{
+    margin-left:0 20% 0 10%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .header, .list-container{
+    display: flex;
+  }

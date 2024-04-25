@@ -1,0 +1,64 @@
+.list-container {
+    display: flex;
+    line-height: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+
+.list-details {
+    flex: 1;
+}
+.list-container, .list-details{
+    margin:0 5% 5% 5%;
+}
+.list-details h3 a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.progress-container {
+    width: 100px;
+}
+.percent-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 10px;
+    cursor: pointer;
+    }
+  .percent-button a{
+  text-decoration: none; 
+  }
+  .progress-circle__text {
+    font-size: 12px; 
+}
+.menu-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.menu-button{
+    margin-left:5%;
+}
+#myForm {
+    display: none;
+    line-height: 1;
+}
+
+#myForm div{
+    font-size: 14px;
+    max-width: 50px; 
+}
+.successfully-registered{
+    font-size: 10px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
